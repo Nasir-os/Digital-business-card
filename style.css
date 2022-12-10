@@ -2,10 +2,17 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
 }
 
-.card img{
+.profile-pic-section img{
     width: 100%;
+    background-color: black;
+}
+
+.info-section{
+    padding: 1em;
+
 }
 .card{
     display: flex;
@@ -13,12 +20,29 @@ body{
     justify-content: center;
     align-items: center;
     border: solid 1px;
-    width: 200px;
+    width: 250px;
     margin: 4em auto;
 }
-.name{
-    margin-left: 16px;
-    padding-left: 5px;
-    border-left: dotted 2px;
+.name-title{
+    margin: 10px 0 10px 6px;
+    padding-left: 6px;
+    border-left: dotted 2px rgba(128, 128, 128, 0.597);
     font-size: 0.9em;
+}
+.name, .title{
+    margin: 0;
+    padding: 2px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+}
+.title{
+    font-size: 13px;
+    font-weight: 400;
+}
+.bio{
+    font-size: 12px;
+    font-weight: 400; 
+    color: grey;
 }

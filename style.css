@@ -5,28 +5,33 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
-.profile-pic-section img{
+.avatar{
     width: 100%;
-    background-color: black;
+    background-color: #FCA311;
+    border-radius: 0.8em;
 }
 
 .info-section{
     padding: 1em;
-
 }
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 1px;
-    width: 250px;
+    border: solid 1px #FCA311;
+    width: 300px;
     margin: 4em auto;
+    border-radius: 0.8em;
+    background-image: url("/images/wave.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
 }
 .name-title{
     margin: 10px 0 10px 6px;
     padding-left: 6px;
-    border-left: dotted 2px rgba(128, 128, 128, 0.597);
+    border-left: dotted 2px #FCA311;
     font-size: 0.9em;
 }
 .name, .title{
@@ -44,5 +49,28 @@ body{
 .bio{
     font-size: 12px;
     font-weight: 400; 
-    color: grey;
+    color: #e5e5e5;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' 200,
+    'opsz' 20;
+    color: #FCA311;
+  }
+.number, .email, .address{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 5px;
+}
+.qrcode{
+    height: 100px;
+    width: 100px;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }

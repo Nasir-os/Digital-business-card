@@ -5,7 +5,7 @@ A simple CSS & HTML Digital bussiness card I created while learning web developm
 
 ## Demo
 
-https://nasir-os.github.io/Digital-business-card/
+cosmic-cobbler-2c9ac2.netlify.app
 
 ## Screenshots
 ![App Screenshot](images/Screenshot.png)

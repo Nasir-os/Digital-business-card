@@ -8,7 +8,7 @@ A simple CSS & HTML Digital bussiness card I created while learning web developm
 https://nasir-os.github.io/Digital-business-card/
 
 ## Screenshots
-![App Screenshot][images/Screenshot.png]
+![App Screenshot](images/Screenshot.png)
 
 ## Lessons Learned
 
